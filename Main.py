@@ -16,7 +16,7 @@ class Stack:
         if len(self.items)==self.size:
             return True
         else :
-            retrun False
+            return False
             
               
     def push(self, data):
