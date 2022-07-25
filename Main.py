@@ -6,20 +6,37 @@ class Stack:
 
     def is_empty(self):
         # Write code here
+        if len(self.items)==0:
+            return stackunderflow
+        else :
+            return (self.items)
 
     def is_full(self):
         # Write code here
+        if len(self.items)>100:
+               return stackoverflow 
+         else :
+               return (self.items)
 
     def push(self, data):
         if not self.is_full():
             # Write code here
+            items.append()data
+            return (self.items)
+               
 
     def pop(self):
         if not self.is_empty():
             # Write code here
+            items .pop()
+            return (self.items)
 
     def status(self):
         # Write code here
+        while true:
+            return stack 
+        
+        
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
