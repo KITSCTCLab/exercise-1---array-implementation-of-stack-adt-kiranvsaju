@@ -35,7 +35,7 @@ class Stack:
     def status(self):
         # Write code here
         for elements in self.items:
-            return (elements)
+            print (elements)
         
         
 
