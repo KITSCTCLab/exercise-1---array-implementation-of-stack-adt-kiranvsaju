@@ -22,7 +22,7 @@ class Stack:
     def push(self, data):
         if not self.is_full():
             # Write code here
-            items.append()data
+            items.append(data)
             return (self.items)
                
 
@@ -34,7 +34,7 @@ class Stack:
 
     def status(self):
         # Write code here
-        while true:
+        while true: 
             return stack 
         
         
