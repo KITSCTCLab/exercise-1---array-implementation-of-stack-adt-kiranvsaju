@@ -13,7 +13,7 @@ class Stack:
 
     def is_full(self):
         # Write code here
-        if len(self.items)>100:
+        if len(self.items)==self.size:
             return true
         else :
             retrun false
@@ -22,20 +22,20 @@ class Stack:
     def push(self, data):
         if not self.is_full():
             # Write code here
-            items.append(data)
-            return (self.items)
+            self.items append(data)
+           
                
 
     def pop(self):
         if not self.is_empty():
             # Write code here
-            items .pop()
-            return (self.items)
+            self.items .pop()
+            
 
     def status(self):
         # Write code here
-        while true: 
-            return stack 
+        for elements in self.items:
+            return elements
         
         
 
