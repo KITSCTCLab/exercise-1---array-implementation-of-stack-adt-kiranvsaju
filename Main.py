@@ -7,17 +7,18 @@ class Stack:
     def is_empty(self):
         # Write code here
         if len(self.items)==0:
-            return stackunderflow
-        else :
-            return (self.items)
+            return true
+        else:
+            return false
 
     def is_full(self):
         # Write code here
         if len(self.items)>100:
-               return stackoverflow 
-         else :
-               return (self.items)
-
+            return true
+        else :
+            retrun false
+            
+              
     def push(self, data):
         if not self.is_full():
             # Write code here
